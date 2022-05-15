@@ -20,3 +20,17 @@
 # There should be four spaces between each problem.
 # There should be dashes at the bottom of each problem.
 # The dashes should run along the entire length of each problem individually.
+input_data = ["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"]
+operator1 = '+'
+operator2 = '-'
+for item in input_data:
+    result = item.split(" ")
+    num1 = result[0]
+    num2 = result[2]
+
+    print(num1,'\n',num2,end= '   ')
+    # if result[1] == operator1:
+    #     print(num2)
+
+    # print(num1 + '    ', end=' ')
+    # print(num2 + '    ', end=' ')
